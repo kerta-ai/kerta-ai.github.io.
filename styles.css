@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container header {
+  padding: 20px;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(38, 133, 74) 0%,
+    rgb(188, 233, 83) 100%
+  );
+  color: white;
+  box-shadow: 0 0 10px 5px black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+}
+
+.content h3 {
+  margin: 20px 5px;
+  font-size: 25px;
+  text-shadow: 0 1px 3px rgb(48, 133, 212);
+  color: rgb(219, 140, 44);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.content-citation {
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.content-citation p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 23px;
+  color: chocolate;
+}
+
+.container footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #151515;
+  padding: 10px;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 10px;
+  margin: 50px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  background-color: rgb(10, 51, 139);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: aliceblue;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0 0 20px 2px black;
+}
+
+span {
+  margin: 60px;
+  color: rgb(10, 207, 142);
+}
+
+button:active {
+  background-color: antiquewhite;
+  color: #151515;
+}
